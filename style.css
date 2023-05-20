@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin:0;
 }
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -7,24 +7,26 @@ body {
     background-size:auto;
 }
 ul {
-    align-items: center;
-    gap: 50px;
+
+    gap: 225px;
     list-style: none;
+    text-align: right;
     display: flex
     
 }
 a {
+    
     text-decoration: none;
     color:red
-
 }
 #navigation {
+    position: sticky;
     background: black;
-    overflow:hidden
-}
+    font-size:18px
+    
+}    
 .container {
     display:grid;
-    grid-template-columns: 6fr 2fr 3fr;
     align-items:center;
 }
 img {
@@ -33,6 +35,7 @@ img {
   }
   h1{
     color: blue;
+    text-align: center;
   }
   p {
     color:rgb(6, 107, 107)
@@ -46,3 +49,4 @@ img {
   footer {
     color:blue
   }
+  
