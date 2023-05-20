@@ -4,6 +4,7 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url(https://media.npr.org/assets/img/2015/10/23/istock_000013491586_large-221263fdf76e8fc0404c6c36123cc124496eb76b.jpg);
+    background-size:auto;
 }
 ul {
     align-items: center;
@@ -38,4 +39,10 @@ img {
   }
   h2 {
     color:rgb(6, 107, 107)
+  }
+  section ul li{
+    color:rgb(6, 107, 107)
+  }
+  footer {
+    color:blue
   }
