@@ -1,3 +1,41 @@
-
+* {
+    margin: 0;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://media.npr.org/assets/img/2015/10/23/istock_000013491586_large-221263fdf76e8fc0404c6c36123cc124496eb76b.jpg);
+}
+ul {
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    display: flex
+    
+}
+a {
+    text-decoration: none;
+    color:red
 
 }
+#navigation {
+    background: black;
+    overflow:hidden
+}
+.container {
+    display:grid;
+    grid-template-columns: 6fr 2fr 3fr;
+    align-items:center;
+}
+img {
+    width: 10%;
+    height: auto;
+  }
+  h1{
+    color: blue;
+  }
+  p {
+    color:rgb(6, 107, 107)
+  }
+  h2 {
+    color:rgb(6, 107, 107)
+  }
