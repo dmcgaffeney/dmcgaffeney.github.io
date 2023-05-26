@@ -59,25 +59,25 @@ a {
     h2 {
     color:rgb(6, 107, 107)
     }
-   ul li{
+ul li{
     color:rgb(6, 107, 107)
-  }
-  footer {
+}
+footer {
     color:blue
-  }
-  ol{
+}
+ol{
     color:rgb(6, 107, 107);
-  }
-  .green {
+}
+.green {
     background: green;
     text-align: center;
-  }
-  .green p{
+}
+.green p{
     color:rgb(0, 5, 5);
     font-size:x-large;
     
-  }
-  .green img {
+}
+.green img {
     width: 600px;
     height: 500px;
-  }
+}
