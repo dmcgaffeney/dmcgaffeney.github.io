@@ -1,50 +1,65 @@
-* {
-    margin:0;
-}
 body {
-    text-align: center;
+    margin: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url(https://media.npr.org/assets/img/2015/10/23/istock_000013491586_large-221263fdf76e8fc0404c6c36123cc124496eb76b.jpg);
     background-size:auto;
 }
-ul {
+article {
+    gap: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6) 1fr;
+}
+    article > div  {
+        background: red;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #080000;
+        background: linear-gradient(red, black);
 
-    gap: 225px;
-    list-style: none;
-    text-align: right;
-    display: flex
-    
+    }
+
+.grid-container div:nth-child(1){
+    grid-column: 1 /span 6
+    ;
 }
+.grid-container div:nth-child(2){
+    grid-column: 4;
+}
+.grid-container div:nth-child(3){
+    grid-column: span 6;
+}
+.grid-container div:nth-child(4){
+    grid-column: 3 / span 1;
+}
+
+    ul {
+        background: black;
+        margin: 0px;
+        font-size: large;
+        gap: 225px ;
+        list-style: none;
+        display:flex;
+        position:fixed;
+        }
 a {
-    
     text-decoration: none;
-    color:red
+    color:rgb(34, 255, 144)
 }
-#navigation {
-    position: sticky;
-    background: black;
-    font-size:18px
-    
-}    
-.container {
-    display:grid;
-    align-items:center;
-}
-img {
-    width: 10%;
-    height: auto;
-  }
-  h1{
+
+
+    h1{
     color: blue;
     text-align: center;
-  }
-  p {
+    }
+    p {
     color:rgb(6, 107, 107)
-  }
-  h2 {
+    }
+    h2 {
     color:rgb(6, 107, 107)
-  }
-  section ul li{
+    }
+   ul li{
     color:rgb(6, 107, 107)
   }
   footer {
@@ -52,4 +67,17 @@ img {
   }
   ol{
     color:rgb(6, 107, 107);
+  }
+  .green {
+    background: green;
+    text-align: center;
+  }
+  .green p{
+    color:rgb(0, 5, 5);
+    font-size:x-large;
+    
+  }
+  .green img {
+    width: 600px;
+    height: 500px;
   }
